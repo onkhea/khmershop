@@ -1,0 +1,42 @@
+.edit-form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .edit-form-container h2 {
+    margin-top: 0;
+  }
+  
+  .edit-form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .edit-form-container input[type="text"],
+  .edit-form-container input[type="number"],
+  .edit-form-container input[type="url"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .edit-form-container input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-form-container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
